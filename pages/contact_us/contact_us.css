@@ -68,9 +68,9 @@ p a {
         padding: 0;
     }
     .navbars {
-        margin: 2px 4px;
-        font-size: medium;
-        padding: 2px;
+        margin: 2px 3px;
+        font-size: 14px;
+        padding: 0;
     }
     #img1 {
         width: 70px;
