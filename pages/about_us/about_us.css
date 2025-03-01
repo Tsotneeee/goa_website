@@ -1,0 +1,103 @@
+html {
+    font-family: calibri;
+    background-image: linear-gradient(to left top, #9eff97c6 , #69ffa5bf);
+    scrollbar-width: none;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/*forme start of navbars */
+
+.navbars:hover {
+    background-color: rgba(0, 174, 75, 0.148);
+}
+
+.navbars {
+    text-decoration: none;
+    color: black;
+    font-size: large;
+    margin: 2px 8px;
+    padding: 10px;
+}
+
+#img1 {
+    width: 150px;
+    height: 150px;
+    position: fixed;
+    left: 10px;
+    top: 10px;
+}
+
+nav {
+    position: fixed;
+    right: 10px;
+    top: 10px;
+    padding: 15px;
+}
+
+/*forme end of navbar*/
+
+main {
+    margin-top: 200px;
+    padding: 10px;
+}
+
+#gimg1 {
+    aspect-ratio: original;
+    width: 450px;
+    position: absolute;
+    top: 170px;
+    right: 50px;
+}
+
+div {
+    margin: 10px 0 200px 0;
+}
+
+#img2 {
+    aspect-ratio: original;
+    width: 450px;
+    margin: 30px 50px;
+}
+
+#p-2 {
+    margin: 20px;
+
+}
+
+/*att                       */
+/*?         responivity     */ 
+@media (max-width: 600px) {
+    nav {
+        padding: 0;
+    }
+    .navbars {
+        margin: 2px 4px;
+        font-size: medium;
+        padding: 2px;
+    }
+    #img1 {
+        width: 70px;
+        height: 70px;
+    }
+    #gimg1 {
+        width: 300px;
+        top: 350px;
+        position: relative;
+        top: 0;
+        left: 20px;
+    }
+    main {
+        margin-top: 100px;
+    }
+    div {
+        margin: 0 0 50px 0;
+    }
+    #img2 {
+        width: 300px;
+        margin: 30px 20px;
+    }
+}

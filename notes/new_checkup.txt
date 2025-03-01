@@ -1,0 +1,6 @@
+icons - ok
+text - ok
+responsive - ok
+pages - ok
+links - ok
+navbar - ok
