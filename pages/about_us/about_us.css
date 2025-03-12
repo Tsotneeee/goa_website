@@ -1,7 +1,13 @@
 html {
     font-family: calibri;
-    background-image: linear-gradient(to left top, #9eff97c6 , #69ffa5bf);
+    background-color: rgb(13, 13, 13);
     scrollbar-width: none;
+    color: rgb(33, 199, 33);
+}
+
+h1 {
+    text-align: center;
+    margin: 30px;
 }
 
 body {
@@ -12,12 +18,12 @@ body {
 /*forme start of navbars */
 
 .navbars:hover {
-    background-color: rgba(0, 174, 75, 0.148);
+    background-color: rgba(37, 71, 51, 0.247);
 }
 
 .navbars {
     text-decoration: none;
-    color: black;
+    color: rgb(0, 159, 0);
     font-size: large;
     margin: 2px 8px;
     padding: 10px;
@@ -51,24 +57,27 @@ main {
     position: absolute;
     top: 170px;
     right: 50px;
+    z-index: -1;
+    box-shadow: 0 0 5px black;
 }
 
 div {
     margin: 10px 0 200px 0;
 }
 
-#img2 {
+/* #img2 {
     aspect-ratio: original;
     width: 450px;
     margin: 30px 50px;
-}
+} */
 
 #p-2 {
     margin: 20px;
-
+    width: 900px;
+    font-size: large;
 }
 
-/*att                       */
+
 /*?         responivity     */ 
 @media (max-width: 600px) {
     nav {
@@ -99,5 +108,8 @@ div {
     #img2 {
         width: 300px;
         margin: 30px 20px;
+    }
+    #p-2 {
+        width: 300px;
     }
 }
