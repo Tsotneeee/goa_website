@@ -105,6 +105,11 @@ div {
 input {
     width: 15px;
     height: 15px;
+    transition: ease-out,250ms;
+}
+
+input:active {
+    transform: scale(0.5);
 }
 
 .childchekers1 {
@@ -115,14 +120,6 @@ input {
     border-radius: 20px;
     padding: 20px;
 }
-
-/* .childchekers2 {
-    width: 370px;
-    height: 450px;
-    border: 3px solid rgba(13, 87, 13, 0.866);
-    border-radius: 20px;
-    background-color: rgba(41, 59, 41, 0.195);
-} */
 
 #p4 {
     position: relative;
@@ -165,5 +162,22 @@ input {
         width: 250px;
         left: 10px;
         margin: 10px;
+    }
+    .chekers {
+        top: 30px;
+        flex-direction: column;
+        width: 300px;
+    }
+    .childchekers1 {
+        width: 210px;
+        height: 400px;
+        padding: 5px;
+        font-size: small;
+    }
+    #p4 {
+        top: 10px;
+    }
+    input {
+        margin-left: 0px;
     }
 }
