@@ -20,5 +20,5 @@ function removerStr(a,b) {
     }
     return results;
 }
-
-export {removerChar, removerStr , finalres};
+//! აქ არაფერი საჭირო არაა ჭ
+export {removerChar, removerStr};

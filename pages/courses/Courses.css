@@ -42,14 +42,14 @@ nav {
     padding: 15px;
 }
 
+/* end of navbar*/
+
 main {
     margin-top: 200px;
     padding: 10px;
     margin-left: 30px;
     font-size: large;
 }
-
-/* end of navbar*/
 
 #gimg1 {
     aspect-ratio: original;
@@ -88,6 +88,45 @@ div {
 #img4 {
     width: 20px;
     border-radius: 50%;
+}
+
+.chekers {
+    position: relative;
+    top: -450px;
+    display: flex;
+    width: 800px;
+    justify-content: space-between;
+}
+
+#inps1 {
+    margin: 20px;
+}
+
+input {
+    width: 15px;
+    height: 15px;
+}
+
+.childchekers1 {
+    width: 370px;
+    height: 450px;
+    border: 3px solid rgba(13, 87, 13, 0.866);
+    background-color: rgba(41, 59, 41, 0.195);
+    border-radius: 20px;
+    padding: 20px;
+}
+
+/* .childchekers2 {
+    width: 370px;
+    height: 450px;
+    border: 3px solid rgba(13, 87, 13, 0.866);
+    border-radius: 20px;
+    background-color: rgba(41, 59, 41, 0.195);
+} */
+
+#p4 {
+    position: relative;
+    top: -500px;
 }
 
 /*?  responivity */

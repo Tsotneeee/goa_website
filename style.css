@@ -94,6 +94,8 @@ div {
     margin: 10px 0 200px 0;
 }
 
+
+/*?    responsivity  */
 @media (max-width: 600px) {
     nav {
         padding: 0;
