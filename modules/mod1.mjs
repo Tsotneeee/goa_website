@@ -21,14 +21,4 @@ function removerStr(a,b) {
     return results;
 }
 
-function finalres(a) {
-    let str1 = removerStr(a, "print");
-    let str2 = removerStr(str1, '("');
-    let str3 = removerChar(str2, '"');
-    let str4 = removerChar(str3, ')');
-    return str4;
-}
-
-console.log(finalres('print("Hello world!")'));
-
 export {removerChar, removerStr , finalres};

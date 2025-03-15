@@ -35,6 +35,7 @@ body {
     position: fixed;
     left: 10px;
     top: 10px;
+    z-index: -1;
 }
 
 nav {
@@ -53,23 +54,28 @@ main {
 
 #gimg1 {
     aspect-ratio: original;
-    width: 450px;
-    position: absolute;
-    top: 170px;
-    right: 50px;
-    z-index: -1;
+    margin: 100px;
+    width: 600px;
     box-shadow: 0 0 5px black;
+    border: 3px solid rgba(13, 87, 13, 0.866);
+    border-radius: 20px;
 }
 
 div {
     margin: 10px 0 200px 0;
 }
 
-/* #img2 {
+#img2 {
     aspect-ratio: original;
-    width: 450px;
+    width: 220px;
     margin: 30px 50px;
-} */
+    border: 5px solid rgba(13, 87, 13, 0.866);
+    border-radius: 50%;
+    position: absolute;
+    top: 200px;
+    right: 100px;
+    z-index: -1;
+}
 
 #p-2 {
     margin: 20px;
@@ -102,6 +108,7 @@ div {
         position: relative;
         top: 0;
         left: 20px;
+        margin: 8px;
     }
     main {
         margin-top: 100px;
@@ -117,6 +124,13 @@ div {
         width: 300px;
     }
     #author {
-        left: 200px;
+        left: 160px;
+        width: 100px;
+    }
+    #img2 {
+        width: 100px;
+        position: relative;
+        top: 20px;
+        left: 25%;
     }
 }
