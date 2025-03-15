@@ -65,6 +65,22 @@ div {
     margin: 10px 0 200px 0;
 }
 
+#corses {
+    width: 500px;
+    aspect-ratio: original;
+    position: relative;
+    left: 900px;
+}
+
+#reg1 {
+    color: rgb(0, 206, 144);
+}
+
+#img4 {
+    width: 20px;
+    border-radius: 50%;
+}
+
 @media (max-width: 600px) {
     nav {
         padding: 0;
@@ -79,7 +95,7 @@ div {
         height: 70px;
     }
     #gimg1 {
-        width: 300px;
+        width: 280px;
         top: 350px;
         position: relative;
         top: 0;
@@ -95,5 +111,10 @@ div {
     p {
         font-size: medium;
         width: 250px;
+    }
+    #corses {
+        width: 250px;
+        left: 10px;
+        margin: 10px;
     }
 }

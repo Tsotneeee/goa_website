@@ -77,6 +77,10 @@ div {
     font-size: large;
 }
 
+#author {
+    position: relative;
+    left: 600px;
+}
 
 /*?         responivity     */ 
 @media (max-width: 600px) {
@@ -111,5 +115,8 @@ div {
     }
     #p-2 {
         width: 300px;
+    }
+    #author {
+        left: 200px;
     }
 }
